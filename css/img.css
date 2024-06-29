@@ -1,0 +1,36 @@
+body{
+    background-image: url('./img/comhead.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+/* btn2 */
+.btn{
+    background: azure;
+    width: 100px;
+    height: 100px;
+    color: aqua;
+    border-radius: 50%;
+    position: absolute;
+    right: 40px;
+
+}
+  .btn a {
+    color:#000;
+    position: absolute;
+    right: 27px;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+ .btn a:hover {
+    color: rgb(80, 83, 255);
+  }
+
+
+  .btn .btn:hover {
+    color: #f4f4f4;
+    background: #446190;
+  }
