@@ -2,7 +2,7 @@ body{
     font-weight: 100;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #445f;
+    background-color: #000000;
         }
     a{
         text-decoration-color: none;
@@ -17,6 +17,8 @@ body{
         margin: 62px;
         padding: 60px;
         background-image: url('./img/comhead.gif');
+        background-size: cover;
+        background-attachment: fixed;
         background-repeat: no-repeat;  
         overflow: auto;
         }
@@ -28,7 +30,7 @@ body{
         .navbar li a{
     text-decoration: none;
     display: block;
-    color: white;
+    color: #Fff;
     padding: 10px 12px;
     
     
@@ -63,28 +65,9 @@ body{
   #msg{
       display: flex;
       text-decoration: none;
-      padding: 90px;
+      color: #fff;
+      text-align: center;
+
       
   }
-
-  #msg #msg1{
-align-items: center;
-text-align: center;
-  }
-
-  #msg #msg2{
-    align-items: center;
-    text-align: center;
-      }
-
-  #msg #msg3{
-    align-items: center;
-    text-align: center;
-      }
-
-      footer a{
-        position: absolute;
-        bottom: 100px;
-        right: 20px;
-        color: lightblue;
-    }
+  
